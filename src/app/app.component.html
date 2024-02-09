@@ -1,0 +1,173 @@
+<!-- app.component.html -->
+<nav class="navbar">
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Contact</a>
+</nav>
+
+<div class="container mx-auto mt-10 mb-10">
+  <!-- Example usage in an Angular component template -->
+  <div class="button-row">
+    <div class="button-item">
+      <button class="cs--btn cs--btn--raised">Raised Button</button>
+      <p>Raised Button</p>
+      <p><code>.cs--btn .cs--btn--raised</code></p>
+    </div>
+    <div class="button-item">
+      <button class="cs--btn cs--btn--outline">Outline Button</button>
+      <p>Outline Button</p>
+      <p><code>.cs--btn .cs--btn--outline</code></p>
+    </div>
+    <div class="button-item">
+      <button class="cs--btn cs--btn--flat">Flat Button</button>
+      <p>Flat Button</p>
+      <p><code>.cs--btn .cs--btn--flat</code></p>
+    </div>
+    <div class="button-item">
+      <button class="cs--btn cs--btn--3d">3D Button</button>
+      <p>3D Button</p>
+      <p><code>.cs--btn .cs--btn--3d</code></p>
+    </div>
+    <div class="button-item">
+      <button class="cs--btn cs--btn--max-width cs--btn--outline">
+        Max Width Outlined Button
+      </button>
+      <p>Max Width Outlined Button</p>
+      <p><code>.cs--btn .cs--btn--max-width .cs--btn--outline</code></p>
+    </div>
+  </div>
+  <div class="container mx-auto mt-10">
+    <!-- Card display section -->
+    <div class="card-row">
+      <div class="card-item">
+        <div class="cs--card cs--card--raised">
+          <h3>Raised Card</h3>
+          <p>This is a raised card example.</p>
+        </div>
+        <p>Raised Card</p>
+        <p><code>.cs--card .cs--card--raised</code></p>
+      </div>
+
+      <div class="card-item">
+        <div class="cs--card cs--card--outline">
+          <h3>Outline Card</h3>
+          <p>This is an outline card example.</p>
+        </div>
+        <p>Outline Card</p>
+        <p><code>.cs--card .cs--card--outline</code></p>
+      </div>
+
+      <div class="card-item">
+        <div class="cs--card cs--card--flat">
+          <h3>Flat Card</h3>
+          <p>This is a flat card example.</p>
+        </div>
+        <p>Flat Card</p>
+        <p><code>.cs--card .cs--card--flat</code></p>
+      </div>
+
+      <div class="card-item">
+        <div class="cs--card cs--card--3d">
+          <h3>3D Card</h3>
+          <p>
+            This is a 3D card example with pronounced shadow for a depth effect.
+          </p>
+        </div>
+        <p>3D Card</p>
+        <p><code>.cs--card .cs--card--3d</code></p>
+      </div>
+
+      <div class="card-item">
+        <div class="cs--card cs--card--max-width cs--card--outline">
+          <h3>Max Width Outlined Card</h3>
+          <p>
+            This is a max width outlined card example, stretching to the full
+            width of its container.
+          </p>
+        </div>
+        <p>Max Width Outlined Card</p>
+        <p><code>.cs--card .cs--card--max-width .cs--card--outline</code></p>
+      </div>
+    </div>
+  </div>
+  <div class="container mx-auto mt-10 ">
+    <!-- Card display section -->
+    <div class="card-row">
+
+      <div class="card-item">
+        <div class="max-w-sm rounded overflow-hidden cs--card--raised">
+          <img class="w-full" [src]="imageUrl" alt="Splash of Paint">          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Splash of Paint</div>
+            <p class="text-gray-700 text-base">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+            </p>
+          </div>
+          <div class="px-6 pt-4 pb-2">
+            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Photography</span>
+            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Paint</span>
+            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Splash</span>
+          </div>
+        </div>
+        <p>Raised Card</p>
+      <p><code>.cs-card--raised</code></p>
+      </div>
+
+      <div class="card-item">
+        <div class="max-w-sm rounded overflow-hidden cs--card--3d">
+          <img class="w-full" [src]="imageUrl2" alt="Morning Sun">          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Morning Sunrise</div>
+            <p class="text-gray-700 text-base">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+            </p>
+          </div>
+          <div class="px-6 pt-4 pb-2">
+            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Photography</span>
+            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Sunrise</span>
+            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Morning</span>
+          </div>
+        </div>
+        <p>3d Card</p>
+      <p><code>.cs-card--3d</code></p>
+      </div>
+
+      <div class="card-item">
+        <div class="max-w-sm rounded overflow-hidden cs--card--outline">
+          <img class="w-full" [src]="imageUrl" alt="Splash of Paint">          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Splash of Paint</div>
+            <p class="text-gray-700 text-base">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+            </p>
+          </div>
+          <div class="px-6 pt-4 pb-2">
+            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Photography</span>
+            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Paint</span>
+            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Splash</span>
+          </div>
+        </div>
+        <p>Outline Card</p>
+      <p><code>.cs-card--outline</code></p>
+      </div>
+
+      <div class="card-item">
+        <div class="max-w-sm rounded overflow-hidden cs--card--flat">
+          <img class="w-full" [src]="imageUrl2" alt="Morning Sun">          <div class="px-6 py-4">
+            <div class="font-bold text-xl mb-2">Morning Sunrise</div>
+            <p class="text-gray-700 text-base">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+            </p>
+          </div>
+          <div class="px-6 pt-4 pb-2">
+            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Photography</span>
+            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Sunrise</span>
+            <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Morning</span>
+          </div>
+        </div>
+        <p>Flat Card</p>
+      <p><code>.cs-card--flat</code></p>
+      </div>
+
+
+    </div>
+  </div>
+</div>

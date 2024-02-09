@@ -1,0 +1,8 @@
+// base.scss
+.cs--card {
+    display: block;
+    padding: 1rem;
+    border-radius: 0.5rem; // Adjust as needed
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); // Basic shadow for depth
+    transition: box-shadow 0.3s ease;
+  }

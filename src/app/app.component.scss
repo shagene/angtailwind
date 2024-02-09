@@ -1,0 +1,55 @@
+.button-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px; /* Adds space between the button items */
+    padding: 20px; /* Adds some padding around the row */
+  }
+  
+  .button-item {
+    text-align: center; /* Centers the text under the button */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Ensures content is aligned center vertically */
+  }
+  
+  .cs--btn--max-width {
+    width: auto; /* Override to ensure it fits in the flex container */
+  }
+  
+  .button-item p {
+    margin: 5px 0; /* Adds a little space between the button, name, and class list */
+  }
+  
+  .cs--btn--max-width {
+    width: auto; /* Override max-width style to fit in the flex row */
+  }
+  
+
+  .card-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .card-item {
+    width: 100%; /* Adjust based on your layout needs */
+    max-width: 300px; /* For demonstration purposes, adjust as needed */
+    text-align: center;
+  }
+  
+  .card-item p, .card-item code {
+    margin-top: 10px;
+  }
+  
+  
+  .cs--card {
+    /* Ensure base card styles are applied; add any modifications for display within the card-row as needed */
+  }
+  
+  .cs--card--max-width {
+    width: auto; /* Override max-width in this context to prevent stretching beyond the card-item */
+  }
+  

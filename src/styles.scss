@@ -1,0 +1,23 @@
+@import "./styles/variables.scss";
+@import "./styles/base.scss";
+@import "./styles/components/navbar.scss";
+
+// .btn styling
+@import "./styles/components/buttons/base.scss";
+@import "./styles/components/buttons/btn-3d.scss";
+@import "./styles/components/buttons/btn-max-width.scss";
+@import "./styles/components/buttons/btn-outline.scss";
+@import "./styles/components/buttons/btn-raised.scss";
+@import "./styles/components/buttons/btn-flat.scss";
+
+// .card styling
+@import "./styles/components/cards/base.scss";
+@import "./styles/components/cards/card-3d.scss";
+@import "./styles/components/cards/card-flat.scss";
+@import "./styles/components/cards/card-max-width.scss";
+@import "./styles/components/cards/card-outline.scss";
+@import "./styles/components/cards/card-raised.scss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

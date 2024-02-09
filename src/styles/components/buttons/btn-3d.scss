@@ -1,0 +1,14 @@
+// 3d.scss
+.cs--btn--3d {
+    background-color: #007bff; // Primary button color
+    color: #fff; // Text color
+    border: none;
+    position: relative;
+    box-shadow: 0 5px #0056b3; // Shadow color for the 3D effect, darker shade of the button color
+  
+    &:active {
+      top: 5px; // Moves the button down to simulate pressing
+      box-shadow: 0 1px #0056b3; // Reduces shadow to simulate the button being closer to the surface
+    }
+  }
+  
